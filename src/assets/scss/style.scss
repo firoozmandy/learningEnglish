@@ -1,0 +1,48 @@
+/*
+Template Name: Techprice - Pricing Section Tailwind CSS 3 HTML Template
+Version: 1.0.0
+Author: Techzaa
+File: Main Css File
+*/
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap');
+
+
+html {
+    @apply relative scroll-smooth;
+}
+
+
+
+body {
+    font-size: 15px;
+    @apply font-body overflow-x-hidden text-gray-700;
+}
+
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    @apply font-semibold;
+}
+
+.navbar-show {
+    height: 6rem;
+    opacity: 1;
+}
+
+.navbar-show {
+    height: 6rem;
+    opacity: 1;
+}
