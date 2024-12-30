@@ -1,10 +1,8 @@
-import ThemeToggle from '@/components/ThemeToggle'
-import pag3 from '@/assets/images/img.jpg';
+import pag3 from '@/assets/images/img.jpg'
 
 const Pricing3 = () => {
   return (
     <>
-      <ThemeToggle />
       <section className="relative z-50 mt-10 py-20">
         <div className="container">
           <div className="text-center">
@@ -20,7 +18,7 @@ const Pricing3 = () => {
               </p>
             </div>
           </div>
-          <img src={pag3} className='my-20' alt="pag3img" />
+          <img src={pag3} className="my-20" alt="pag3img" />
           {/* content */}
           <section className="bg-white dark:bg-gray-900">
             <div className="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
@@ -43,7 +41,7 @@ const Pricing3 = () => {
                 </p> */}
                 <a
                   href="#"
-                  className="text-blue-600 hover:text-blue-800 dark:text-blue-500 dark:hover:text-primary-700 inline-flex items-center font-medium">
+                  className="dark:hover:text-primary-700 inline-flex items-center font-medium text-blue-600 hover:text-blue-800 dark:text-blue-500">
                   Learn more
                   <svg
                     className="ml-1 h-6 w-6"
@@ -60,158 +58,159 @@ const Pricing3 = () => {
             </div>
           </section>
 
-
-
           <section className="relative flex flex-col rounded-xl bg-gray-800 p-6 shadow-lg shadow-gray-900/5">
-              <div className="absolute inset-0 -right-7 -top-3 left-auto">
-                <a
-                  className="mt-6 rounded-lg bg-blue-600 px-3 py-2 text-xs font-semibold text-white transition-all duration-500 hover:bg-white hover:text-black"
-                  aria-label="Get started with the Starter plan for [object Object]"
-                  href="#">
-                  A1 to C1
-                </a>
-              </div>
-              <h3 className="text-2xl font-semibold uppercase text-blue-400">
-              Why choose a personal online tutor?
-              </h3>
-
-              <hr className="mt-6" />
-              <div className="mt-6">
-                <ul role="list" className="-my-2 text-lg text-white">
-                  <li className="flex py-2">
-                    <svg
-                      className="h-5 w-5 fill-white"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <circle
-                        className="stroke-white"
-                        cx={12}
-                        cy={12}
-                        r={10}
-                        strokeWidth="1.5"
-                      />
-                      <path
-                        className="stroke-purple-500"
-                        d="M8.5 12.5L10.5 14.5L15.5 9.5"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                    <span className="ml-4">
-                    Book private online sessions with a tutor of your choice                    </span>
-                  </li>
-                  <li className="flex py-2">
-                    <svg
-                      className="h-5 w-5 fill-white"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <circle
-                        className="stroke-white"
-                        cx={12}
-                        cy={12}
-                        r={10}
-                        strokeWidth="1.5"
-                      />
-                      <path
-                        className="stroke-purple-500"
-                        d="M8.5 12.5L10.5 14.5L15.5 9.5"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                    <span className="ml-4">
-                    Focus on the areas important to you                    </span>
-                  </li>
-                  <li className="flex py-2">
-                    <svg
-                      className="h-5 w-5 fill-white"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <circle
-                        className="stroke-white"
-                        cx={12}
-                        cy={12}
-                        r={10}
-                        strokeWidth="1.5"
-                      />
-                      <path
-                        className="stroke-purple-500"
-                        d="M8.5 12.5L10.5 14.5L15.5 9.5"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                    <span className="ml-4">
-                    Learning plan based on your level to help you reach your goal                    </span>
-                  </li>
-                  <li className="flex py-2">
-                    <svg
-                      className="h-5 w-5 fill-white"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <circle
-                        className="stroke-white"
-                        cx={12}
-                        cy={12}
-                        r={10}
-                        strokeWidth="1.5"
-                      />
-                      <path
-                        className="stroke-purple-500"
-                        d="M8.5 12.5L10.5 14.5L15.5 9.5"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                    <span className="ml-4">
-                    30-minute one-to-one online English tuition with British Council approved tutors                    </span>
-                  </li>
-                  <li className="flex py-2">
-                    <svg
-                      className="h-5 w-5 fill-white"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <circle
-                        className="stroke-white"
-                        cx={12}
-                        cy={12}
-                        r={10}
-                        strokeWidth="1.5"
-                      />
-                      <path
-                        className="stroke-purple-500"
-                        d="M8.5 12.5L10.5 14.5L15.5 9.5"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                    <span className="ml-4">
-                    Highly qualified tutors are available 24/7, including weekends and holidays
-                    </span>
-                  </li>
-                  
-                </ul>
-              </div>
+            <div className="absolute inset-0 -right-7 -top-3 left-auto">
               <a
-                className=" mt-20 inline-flex justify-center rounded-lg border bg-white px-3 py-2 text-sm font-semibold text-blue-400 transition-all duration-500 hover:bg-blue-500 hover:text-white dark:text-gray-900"
+                className="mt-6 rounded-lg bg-blue-600 px-3 py-2 text-xs font-semibold text-white transition-all duration-500 hover:bg-white hover:text-black"
                 aria-label="Get started with the Starter plan for [object Object]"
                 href="#">
-                Sign up at EnglishScore Tutors
+                A1 to C1
               </a>
-            </section>
+            </div>
+            <h3 className="text-2xl font-semibold uppercase text-blue-400">
+              Why choose a personal online tutor?
+            </h3>
 
-
-         
+            <hr className="mt-6" />
+            <div className="mt-6">
+              <ul role="list" className="-my-2 text-lg text-white">
+                <li className="flex py-2">
+                  <svg
+                    className="h-5 w-5 fill-white"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle
+                      className="stroke-white"
+                      cx={12}
+                      cy={12}
+                      r={10}
+                      strokeWidth="1.5"
+                    />
+                    <path
+                      className="stroke-purple-500"
+                      d="M8.5 12.5L10.5 14.5L15.5 9.5"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  <span className="ml-4">
+                    Book private online sessions with a tutor of your choice{' '}
+                  </span>
+                </li>
+                <li className="flex py-2">
+                  <svg
+                    className="h-5 w-5 fill-white"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle
+                      className="stroke-white"
+                      cx={12}
+                      cy={12}
+                      r={10}
+                      strokeWidth="1.5"
+                    />
+                    <path
+                      className="stroke-purple-500"
+                      d="M8.5 12.5L10.5 14.5L15.5 9.5"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  <span className="ml-4">
+                    Focus on the areas important to you{' '}
+                  </span>
+                </li>
+                <li className="flex py-2">
+                  <svg
+                    className="h-5 w-5 fill-white"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle
+                      className="stroke-white"
+                      cx={12}
+                      cy={12}
+                      r={10}
+                      strokeWidth="1.5"
+                    />
+                    <path
+                      className="stroke-purple-500"
+                      d="M8.5 12.5L10.5 14.5L15.5 9.5"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  <span className="ml-4">
+                    Learning plan based on your level to help you reach your
+                    goal{' '}
+                  </span>
+                </li>
+                <li className="flex py-2">
+                  <svg
+                    className="h-5 w-5 fill-white"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle
+                      className="stroke-white"
+                      cx={12}
+                      cy={12}
+                      r={10}
+                      strokeWidth="1.5"
+                    />
+                    <path
+                      className="stroke-purple-500"
+                      d="M8.5 12.5L10.5 14.5L15.5 9.5"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  <span className="ml-4">
+                    30-minute one-to-one online English tuition with British
+                    Council approved tutors{' '}
+                  </span>
+                </li>
+                <li className="flex py-2">
+                  <svg
+                    className="h-5 w-5 fill-white"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle
+                      className="stroke-white"
+                      cx={12}
+                      cy={12}
+                      r={10}
+                      strokeWidth="1.5"
+                    />
+                    <path
+                      className="stroke-purple-500"
+                      d="M8.5 12.5L10.5 14.5L15.5 9.5"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  <span className="ml-4">
+                    Highly qualified tutors are available 24/7, including
+                    weekends and holidays
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <a
+              className="mt-20 inline-flex justify-center rounded-lg border bg-white px-3 py-2 text-sm font-semibold text-blue-400 transition-all duration-500 hover:bg-blue-500 hover:text-white dark:text-gray-900"
+              aria-label="Get started with the Starter plan for [object Object]"
+              href="#">
+              Sign up at EnglishScore Tutors
+            </a>
+          </section>
         </div>
       </section>
     </>

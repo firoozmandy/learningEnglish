@@ -1,16 +1,13 @@
-import ThemeToggle from '@/components/ThemeToggle'
-
 const Pricing1 = () => {
   return (
     <>
-      <ThemeToggle />
       <section className="relative py-20">
         <div className="container">
           <div className="mx-auto max-w-2xl sm:text-center">
             <span className="font-medium tracking-widest text-blue-600">
               our price
             </span>
-            <h2 className="mt-7 text-3xl font-medium tracking-tight md:text-5xl text-pink-500">
+            <h2 className="mt-7 text-3xl font-medium tracking-tight text-pink-500 md:text-5xl">
               Live classes
             </h2>
             <div className="mx-auto mt-5 h-[2px] w-10 bg-gradient-to-r from-cyan-500 to-blue-500" />
@@ -55,7 +52,7 @@ const Pricing1 = () => {
                     </h5>
                   </li>
                 </ul>
-                <div className="flex justify-center mt-24">
+                <div className="mt-24 flex justify-center">
                   <a
                     href="#"
                     className="rounded-md border border-blue-500 px-6 py-3 font-medium text-blue-500 transition-all duration-500 hover:bg-blue-500 hover:text-white">
@@ -85,7 +82,10 @@ const Pricing1 = () => {
                         </div>
                         <h2 className="mb-3 mt-20 items-center align-middle text-5xl">
                           USD
-                          <sup className="align-middle text-2xl text-pink-300">$</sup>131
+                          <sup className="align-middle text-2xl text-pink-300">
+                            $
+                          </sup>
+                          131
                         </h2>
                         <span>per month</span>
                       </div>
@@ -141,7 +141,8 @@ const Pricing1 = () => {
                 </div>
                 <h2 className="mb-3 mt-20 items-center align-middle text-5xl">
                   USD
-                  <sup className="align-middle text-2xl text-pink-300">$</sup>179
+                  <sup className="align-middle text-2xl text-pink-300">$</sup>
+                  179
                 </h2>
                 <span>Premium Business Classes</span>
               </div>
@@ -184,8 +185,8 @@ const Pricing1 = () => {
             </div>
           </div>
           <h5 className="mt-14 text-center font-medium">
-          Book your free trial lesson  
-            <a href="#" className="text-pink-500 mx-3">
+            Book your free trial lesson
+            <a href="#" className="mx-3 text-pink-500">
               Get in touch
             </a>
           </h5>

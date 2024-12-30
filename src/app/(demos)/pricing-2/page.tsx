@@ -1,10 +1,8 @@
-import ThemeToggle from '@/components/ThemeToggle'
-import pageImg from '../../../assets/images/page2.jpg';
+import pageImg from '../../../assets/images/page2.jpg'
 
 const Pricing2 = () => {
   return (
     <>
-      <ThemeToggle />
       <section className="relative z-50 mt-10 py-20">
         <div className="container">
           <div className="mx-auto max-w-xl sm:text-center">
@@ -103,11 +101,10 @@ const Pricing2 = () => {
                       preparation
                     </span>
                   </li>
-                 
                 </ul>
               </div>
-            
-              <img src={pageImg} className='size-6/6 mt-10 mx-auto' alt="img" />
+
+              <img src={pageImg} className="size-6/6 mx-auto mt-10" alt="img" />
             </section>
             {/* right */}
             <section className="relative flex flex-col rounded-xl bg-pink-500 p-6 shadow-lg shadow-gray-900/5">

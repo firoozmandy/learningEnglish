@@ -4,6 +4,7 @@ import { pricingData } from '../data'
 const Demos = () => {
   return (
     <section className="section scroll-mt-5 pb-16" id="demos">
+    
       <div className="mx-14">
         <div className="mb-10 text-center text-2xl font-semibold">
         Learn with one of our popular online courses        </div>

@@ -1,4 +1,3 @@
-import ThemeToggle from '@/components/ThemeToggle'
 import pag4 from '@/assets/images/pag4.jpg'
 import listen from '@/assets/images/listen.jpg'
 import reading from '@/assets/images/red.jpg'
@@ -8,7 +7,6 @@ import writing from '@/assets/images/writing.jpg'
 const Pricing4 = () => {
   return (
     <>
-      <ThemeToggle />
       <section className="relative z-50 mt-10 py-20">
         <div className="container max-w-[1200px]">
           <div className="text-center">
@@ -81,8 +79,8 @@ const Pricing4 = () => {
               </div>
             </div>
           </section>
-          <div className="mt-10 lg:ml-10 ml-0 grid grid-cols-1 gap-6 lg:grid-cols-2 2xl:px-24">
-            <div className="lg:w-[80%] rounded-md border bg-white p-10 shadow-md dark:border-gray-700 dark:bg-neutral-800/70 dark:shadow-gray-800">
+          <div className="ml-0 mt-10 grid grid-cols-1 gap-6 lg:ml-10 lg:grid-cols-2 2xl:px-24">
+            <div className="rounded-md border bg-white p-10 shadow-md dark:border-gray-700 dark:bg-neutral-800/70 dark:shadow-gray-800 lg:w-[80%]">
               <div className="text-center">
                 <img src={listen} alt="listen" />
 
@@ -103,7 +101,7 @@ const Pricing4 = () => {
                 </a>
               </div>
             </div>
-            <div className="lg:w-[80%] rounded-md border bg-white p-10 shadow-md dark:border-gray-700 dark:bg-neutral-800/70 dark:shadow-gray-800">
+            <div className="rounded-md border bg-white p-10 shadow-md dark:border-gray-700 dark:bg-neutral-800/70 dark:shadow-gray-800 lg:w-[80%]">
               <div className="text-center">
                 <img src={spiking} alt="spiking img" />
                 <span className="rounded-full bg-gray-50 px-6 py-2 text-lg dark:bg-gray-800/60">
@@ -124,7 +122,7 @@ const Pricing4 = () => {
                 </a>
               </div>
             </div>
-            <div className="lg:w-[80%] rounded-md border bg-white p-10 shadow-md dark:border-gray-700 dark:bg-neutral-800/70 dark:shadow-gray-800">
+            <div className="rounded-md border bg-white p-10 shadow-md dark:border-gray-700 dark:bg-neutral-800/70 dark:shadow-gray-800 lg:w-[80%]">
               <div className="text-center">
                 <img src={reading} alt="reading img" />
                 <span className="rounded-full bg-gray-50 px-6 py-2 text-lg dark:bg-gray-800/60">
@@ -144,7 +142,7 @@ const Pricing4 = () => {
                 </a>
               </div>
             </div>
-            <div className="lg:w-[80%] rounded-md border bg-white p-10 shadow-md dark:border-gray-700 dark:bg-neutral-800/70 dark:shadow-gray-800">
+            <div className="rounded-md border bg-white p-10 shadow-md dark:border-gray-700 dark:bg-neutral-800/70 dark:shadow-gray-800 lg:w-[80%]">
               <div className="text-center">
                 <img src={writing} alt="writing img" />
                 <span className="rounded-full bg-gray-50 px-6 py-2 text-lg dark:bg-gray-800/60">

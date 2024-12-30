@@ -1,11 +1,9 @@
-import ThemeToggle from '@/components/ThemeToggle'
 import cartImg from '@/assets/images/page6.jpg'
 import cartImg2 from '@/assets/images/cc.png'
 import cartImg3 from '@/assets/images/ccc.jpg'
 const Pricing6 = () => {
   return (
     <>
-      <ThemeToggle />
       <section className="z-50 py-36">
         <div className="container">
           <div className="flex justify-center">
@@ -53,7 +51,7 @@ const Pricing6 = () => {
               </div>
               <button
                 type="button"
-                className="w-full mt-6 rounded-md bg-red-500/50 py-2 text-white">
+                className="mt-6 w-full rounded-md bg-red-500/50 py-2 text-white">
                 Current Plan
               </button>
             </div>

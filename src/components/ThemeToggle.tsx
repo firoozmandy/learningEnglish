@@ -22,9 +22,9 @@ const ThemeToggle = () => {
   }, [])
 
   return (
-    <span className="fixed end-3 top-3 z-50 cursor-pointer">
+    <span className="fixed end-3 top-4 z-50 cursor-pointer">
       <label
-        className="label flex h-8 w-10 cursor-pointer items-center justify-center rounded-full bg-gray-200 p-1 shadow dark:bg-gray-200 dark:shadow-gray-800"
+        className="label flex h-8 w-10 cursor-pointer items-center justify-center rounded-full bg-white p-1 shadow dark:bg-blue-400 dark:shadow-gray-800"
         htmlFor="chk"
         data-fc-trigger="switch"
         data-fc-type="theme_switcher"
@@ -62,7 +62,7 @@ const ThemeToggle = () => {
             stroke-linejoin="round"
             width="24"
             height="24"
-            className='text-gray-700'
+            className="text-gray-700"
             stroke-width="2">
             <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
             <path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2"></path>

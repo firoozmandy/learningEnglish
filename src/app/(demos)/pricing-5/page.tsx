@@ -1,4 +1,3 @@
-import ThemeToggle from '@/components/ThemeToggle'
 import grammar from '@/assets/images/11.png'
 import cartImg from '@/assets/images/page6.jpg'
 import cartImg2 from '@/assets/images/cc.png'
@@ -7,7 +6,6 @@ import cartImg3 from '@/assets/images/ccc.jpg'
 const Pricing5 = () => {
   return (
     <>
-      <ThemeToggle />
       <section className="z-50 py-16 sm:py-36">
         <div className="container relative">
           <div className="text-center">
