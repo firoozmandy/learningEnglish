@@ -73,7 +73,7 @@ const Pricing1 = () => {
                 </div>
               </div>
               <div className="group">
-                <div className="rounded-xl border border-gray-300 bg-white dark:border-gray-700 dark:bg-neutral-900">
+                <div className="rounded-xl border border-gray-300 bg-gray-200 dark:border-gray-700 dark:bg-neutral-900">
                   <div className="text-center">
                     <div className="flex flex-col">
                       <div className="pt-0 text-center">
@@ -121,7 +121,7 @@ const Pricing1 = () => {
                         <div className="flex justify-center">
                           <a
                             href="#"
-                            className="rounded-md border border-blue-500 bg-blue-500 px-6 py-3 font-medium text-white hover:bg-blue-500">
+                            className="rounded-md border border-blue-500 px-6 py-3 font-medium text-blue-500 transition-all duration-500 hover:bg-blue-500 hover:text-white">
                             Buy Now
                           </a>
                         </div>

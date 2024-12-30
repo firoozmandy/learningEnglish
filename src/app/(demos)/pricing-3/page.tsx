@@ -62,7 +62,7 @@ const Pricing3 = () => {
 
 
 
-          <section className="relative flex flex-col rounded-xl bg-pink-400 p-6 shadow-lg shadow-gray-900/5">
+          <section className="relative flex flex-col rounded-xl bg-gray-800 p-6 shadow-lg shadow-gray-900/5">
               <div className="absolute inset-0 -right-7 -top-3 left-auto">
                 <a
                   className="mt-6 rounded-lg bg-blue-600 px-3 py-2 text-xs font-semibold text-white transition-all duration-500 hover:bg-white hover:text-black"

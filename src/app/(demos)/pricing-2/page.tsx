@@ -119,7 +119,7 @@ const Pricing2 = () => {
                   A1 to C1
                 </a>
               </div>
-              <h3 className="text-2xl font-semibold uppercase text-blue-400">
+              <h3 className="text-2xl font-semibold uppercase text-white">
                 Why choose IELTS Coach?
               </h3>
 
@@ -281,7 +281,7 @@ const Pricing2 = () => {
                 </ul>
               </div>
               <a
-                className="mt-20 inline-flex justify-center rounded-lg border bg-white px-3 py-2 text-sm font-semibold text-blue-400 transition-all duration-500 hover:bg-blue-500 hover:text-white dark:text-gray-900"
+                className="mt-40 inline-flex justify-center rounded-lg border bg-white px-3 py-2 text-sm font-semibold text-blue-400 transition-all duration-500 hover:bg-blue-500 hover:text-white dark:text-gray-900"
                 aria-label="Get started with the Starter plan for [object Object]"
                 href="#">
                 Sign up

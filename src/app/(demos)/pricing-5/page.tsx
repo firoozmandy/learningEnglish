@@ -16,7 +16,7 @@ const Pricing5 = () => {
             </h1>
             <p className="text-xl text-gray-500 dark:text-gray-400">
               Revise and practise your grammar to help you increase your
-              confidence and improve your language level.{' '}
+              confidence and improve your language level.
             </p>
           </div>
 
@@ -24,21 +24,25 @@ const Pricing5 = () => {
             <div className="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
               <img src={grammar} alt="grammar img" />
 
-              <p className="text-gray-700">
+              <p className="text-2xl font-normal text-gray-700">
                 Practise your English grammar with clear grammar explanations
                 and practice exercises to test your understanding. The learning
                 materials are organised into two sections, organised by English
-                level. All learners, whatever their level, have questions and
-                doubts about grammar as they're learning English. There is also
-                a grammar reference which helps to explain the verb tenses and
-                grammar rules in a clear and simple way. Decide which area of
-                grammar you need help with today and choose a grammar point to
-                work on. When you do the interactive exercises, you can see how
-                well you've done. By revising and practising your grammar you
-                will increase your confidence in English and improve your
-                language level. Practising little and often is the best way to
-                improve your grammar, so come back tomorrow to choose another
-                grammar point to work on. Good luck!
+                level.
+                <p className="text-blue-900">
+                  whatever their level, have questions and doubts about grammar
+                  as they're learning English. There is also a grammar reference
+                  which helps to explain the verb tenses and grammar rules in a
+                  clear and simple way. Decide which area of grammar you need
+                  help with today and choose a grammar point to work on . When
+                  you do the interactive exercises, you can see how well you've
+                  done.
+                </p>
+                By revising and practising your grammar you will increase your
+                confidence in English and improve your language level.
+                Practising little and often is the best way to improve your
+                grammar, so come back tomorrow to choose another grammar point
+                to work on. Good luck!
               </p>
 
               <div className="mt-12 grid gap-5 md:grid-cols-3">
@@ -119,7 +123,7 @@ const Pricing5 = () => {
                 <a
                   href="/"
                   className="dark:hover:text-primary-700 inline-flex items-center font-medium text-blue-600 hover:text-blue-800 dark:text-blue-500">
-                  Explore courses{' '}
+                  Explore courses
                   <svg
                     className="ml-1 h-6 w-6"
                     fill="currentColor"

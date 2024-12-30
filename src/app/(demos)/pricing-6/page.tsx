@@ -53,7 +53,7 @@ const Pricing6 = () => {
               </div>
               <button
                 type="button"
-                className="w-full rounded-md bg-blue-500/50 py-2 text-white">
+                className="w-full mt-6 rounded-md bg-red-500/50 py-2 text-white">
                 Current Plan
               </button>
             </div>

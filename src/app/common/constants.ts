@@ -6,7 +6,7 @@ export const currentYear = new Date().getFullYear()
 
 export const developedByLink = ''
 
-export const developedBy = 'Techzaa'
+export const developedBy = 'Trainings'
 
 export const contactUs = ''
 
