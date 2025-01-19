@@ -1,7 +1,6 @@
 import logo from '@/assets/images/logo.png'
 import ThemeToggle from '@/components/ThemeToggle'
 import { useEffect, useState } from 'react'
-import { NavLink } from 'react-router-dom'
 
 const TopNavbar = () => {
   const [open, setOpen] = useState<boolean>(false)
@@ -63,7 +62,7 @@ const TopNavbar = () => {
         {/* hamberger meno */}
         <div className="ml-auto md:hidden">
           <button
-            className="flex items-center rounded "
+            className="flex items-center rounded"
             type="button"
             onClick={toggleMenu}>
             <svg
