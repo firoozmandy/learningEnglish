@@ -12,7 +12,7 @@ const Demos = () => {
           {pricingData.map((item, idx) => {
             return (
               <div className="mx-auto px-4" key={idx}>
-                <Link to={item.path} target="_parent">
+                <Link to={item.path}>
                   <img
                     src={item.image}
                     className="rounded border border-gray-100 bg-white p-2 shadow-lg"
