@@ -1,4 +1,5 @@
 import pag3 from '@/assets/images/img.jpg'
+import { NavLink } from 'react-router-dom'
 
 const Pricing3 = () => {
   return (
@@ -39,8 +40,8 @@ const Pricing3 = () => {
                   development work, eliminate toil, and deploy changes with
                   ease.
                 </p> */}
-                <a
-                  href="#"
+                <NavLink
+                  to="#"
                   className="dark:hover:text-primary-700 inline-flex items-center font-medium text-blue-600 hover:text-blue-800 dark:text-blue-500">
                   Learn more
                   <svg
@@ -49,23 +50,23 @@ const Pricing3 = () => {
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                      clip-rule="evenodd"></path>
+                      clipRule="evenodd"></path>
                   </svg>
-                </a>
+                </NavLink>
               </div>
             </div>
           </section>
 
           <section className="relative flex flex-col rounded-xl bg-gray-800 p-6 shadow-lg shadow-gray-900/5">
             <div className="absolute inset-0 -right-7 -top-3 left-auto">
-              <a
+              <NavLink
                 className="mt-6 rounded-lg bg-blue-600 px-3 py-2 text-xs font-semibold text-white transition-all duration-500 hover:bg-white hover:text-black"
                 aria-label="Get started with the Starter plan for [object Object]"
-                href="#">
+                to="#">
                 A1 to C1
-              </a>
+              </NavLink>
             </div>
             <h3 className="text-2xl font-semibold uppercase text-blue-400">
               Why choose a personal online tutor?
@@ -204,12 +205,12 @@ const Pricing3 = () => {
                 </li>
               </ul>
             </div>
-            <a
+            <NavLink
               className="mt-20 inline-flex justify-center rounded-lg border bg-white px-3 py-2 text-sm font-semibold text-blue-400 transition-all duration-500 hover:bg-blue-500 hover:text-white dark:text-gray-900"
               aria-label="Get started with the Starter plan for [object Object]"
-              href="#">
+              to="#">
               Sign up at EnglishScore Tutors
-            </a>
+            </NavLink>
           </section>
         </div>
       </section>

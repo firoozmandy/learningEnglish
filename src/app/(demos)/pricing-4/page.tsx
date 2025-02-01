@@ -3,6 +3,7 @@ import listen from '@/assets/images/listen.jpg'
 import reading from '@/assets/images/red.jpg'
 import spiking from '@/assets/images/spe.jpg'
 import writing from '@/assets/images/writing.jpg'
+import { NavLink } from 'react-router-dom'
 
 const Pricing4 = () => {
   return (
@@ -61,8 +62,8 @@ const Pricing4 = () => {
                   convenient for you.
                 </p>
 
-                <a
-                  href="/"
+                <NavLink
+                  to="/"
                   className="dark:hover:text-primary-700 inline-flex items-center font-medium text-blue-600 hover:text-blue-800 dark:text-blue-500">
                   Learn more
                   <svg
@@ -71,11 +72,11 @@ const Pricing4 = () => {
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                      clip-rule="evenodd"></path>
+                      clipRule="evenodd"></path>
                   </svg>
-                </a>
+                </NavLink>
               </div>
             </div>
           </section>
@@ -94,11 +95,11 @@ const Pricing4 = () => {
                     understanding of the language and your pronunciation.
                   </li>
                 </ul>
-                <a
-                  href="/"
+                <NavLink
+                  to="/"
                   className="rounded-md border border-purple-500 px-6 py-3 font-medium text-purple-500 shadow-lg hover:bg-purple-500 hover:text-white hover:shadow-purple-500/30">
                   join
-                </a>
+                </NavLink>
               </div>
             </div>
             <div className="rounded-md border bg-white p-10 shadow-md dark:border-gray-700 dark:bg-neutral-800/70 dark:shadow-gray-800 lg:w-[80%]">
@@ -115,11 +116,11 @@ const Pricing4 = () => {
                     useful phrases.
                   </li>
                 </ul>
-                <a
-                  href="/"
+                <NavLink
+                  to="/"
                   className="rounded-md bg-gradient-to-r from-[#7551e9]/90 from-0% via-[#c4b5f6] via-100% px-6 py-3 font-medium text-white shadow-lg hover:shadow-purple-500/30">
                   join
-                </a>
+                </NavLink>
               </div>
             </div>
             <div className="rounded-md border bg-white p-10 shadow-md dark:border-gray-700 dark:bg-neutral-800/70 dark:shadow-gray-800 lg:w-[80%]">
@@ -135,11 +136,11 @@ const Pricing4 = () => {
                     of the language and build your vocabulary.
                   </li>
                 </ul>
-                <a
-                  href="/"
+                <NavLink
+                  to="/"
                   className="rounded-md border border-purple-500 px-6 py-3 font-medium text-purple-500 shadow-lg hover:bg-purple-500 hover:text-white hover:shadow-purple-500/30">
                   join
-                </a>
+                </NavLink>
               </div>
             </div>
             <div className="rounded-md border bg-white p-10 shadow-md dark:border-gray-700 dark:bg-neutral-800/70 dark:shadow-gray-800 lg:w-[80%]">
@@ -155,11 +156,11 @@ const Pricing4 = () => {
                     texts and how they're structured.
                   </li>
                 </ul>
-                <a
-                  href="/"
+                <NavLink
+                  to="/"
                   className="rounded-md border border-purple-500 px-6 py-3 font-medium text-purple-500 shadow-lg hover:bg-purple-500 hover:text-white hover:shadow-purple-500/30">
                   join
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>

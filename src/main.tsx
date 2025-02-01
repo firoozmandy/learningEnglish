@@ -6,7 +6,12 @@ import { basePath } from './app/common/constants.ts'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename={basePath}>
+    <BrowserRouter
+      basename={basePath}
+      future={{
+        v7_startTransition: true,
+        v7_relativeSplatPath: true,
+      }}>
       <App />
     </BrowserRouter>
   </StrictMode>,

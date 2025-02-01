@@ -2,7 +2,7 @@ import { currentYear, developedBy } from '@/app/common/constants'
 
 import img from '@/assets/images/logo.png'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 const Footer = () => {
   return (
     <footer className="font-sans relative bg-gray-200 from-gray-900 via-gray-700 to-gray-900 px-10 pb-6 pt-12 tracking-wide dark:bg-neutral-900">
@@ -14,32 +14,32 @@ const Footer = () => {
             </h2>
             <ul className="space-y-3 ">
               <li>
-                <a
-                  href="/"
+                <NavLink
+                  to="/"
                   className="text-sm text-gray-600 transition-all dark:text-white hover:text-gray-800">
                   {currentYear}
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/Live-classes"
+                <NavLink
+                  to="/Live-classes"
                   className="text-sm text-gray-600 transition-all dark:text-white hover:text-gray-800">
                   Live classes
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/Activate-your-English"
+                <NavLink
+                  to="/Activate-your-English"
                   className="text-sm text-gray-600 transition-all dark:text-white hover:text-gray-800">
                   Activate your English
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/IELTS-preparation"
+                <NavLink
+                  to="/IELTS-preparation"
                   className="text-sm text-gray-600 transition-all dark:text-white hover:text-gray-800">
                   IELTS preparation
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -51,20 +51,20 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex flex-grow gap-2">
                 <FaGithub />
-                <a
-                  href="https://github.com/firoozmandy"
+                <NavLink
+                  to="https://github.com/firoozmandy"
                   className="text-sm text-gray-600 transition-all dark:text-white hover:text-gray-800">
                   Github
-                </a>
+                </NavLink>
               </li>
               <li className="flex flex-grow gap-2">
                 <FaLinkedin className="-mt-1 h-6 text-blue-800" />
 
-                <a
-                  href="https://www.linkedin.com/in/marya-firoozmandi/"
+                <NavLink
+                  to="https://www.linkedin.com/in/marya-firoozmandi/"
                   className="text-sm dark:text-white text-gray-600 transition-all hover:text-gray-800">
                   linkedin
-                </a>
+                </NavLink>
               </li>
              
             </ul>
@@ -76,25 +76,25 @@ const Footer = () => {
             </h2>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="javascript:void(0)"
+                <NavLink
+                  to="/"
                   className="text-sm dark:text-white text-gray-600 transition-all hover:text-gray-800">
                   About
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
+                <NavLink
+                  to="/"
                   className="text-sm dark:text-white text-gray-600 transition-all hover:text-gray-800">
                   Privacy Policy
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="javascript:void(0)"
+                <NavLink
+                  to="/"
                   className="text-sm text-gray-600 transition-all hover:text-gray-800 dark:text-white">
                   Terms &amp; Conditions
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -110,16 +110,16 @@ const Footer = () => {
 
         <div className="flex flex-wrap gap-6 sm:justify-between">
           <div className="flex space-x-5">
-            <a
-              href="https://github.com/firoozmandy"
+            <NavLink
+              to="https://github.com/firoozmandy"
               className="text-sm text-gray-600 transition-all hover:text-gray-800">
               <FaGithub />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/marya-firoozmandi/"
+            </NavLink>
+            <NavLink
+              to="https://www.linkedin.com/in/marya-firoozmandi/"
               className="text-sm text-gray-600 transition-all hover:text-gray-800">
               <FaLinkedin />
-            </a>
+            </NavLink>
           </div>
 
           <p className="px-[8%] text-sm text-gray-600">

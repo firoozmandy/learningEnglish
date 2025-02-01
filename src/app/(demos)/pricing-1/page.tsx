@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom"
+
 const Pricing1 = () => {
   return (
     <>
@@ -53,11 +55,11 @@ const Pricing1 = () => {
                   </li>
                 </ul>
                 <div className="mt-24 flex justify-center">
-                  <a
-                    href="#"
+                  <NavLink
+                    to="#"
                     className="rounded-md border border-blue-500 px-6 py-3 font-medium text-blue-500 transition-all duration-500 hover:bg-blue-500 hover:text-white">
                     BuyNow
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -119,11 +121,11 @@ const Pricing1 = () => {
                           </li>
                         </ul>
                         <div className="flex justify-center">
-                          <a
-                            href="#"
+                          <NavLink
+                            to="#"
                             className="rounded-md border border-blue-500 px-6 py-3 font-medium text-blue-500 transition-all duration-500 hover:bg-blue-500 hover:text-white">
                             Buy Now
-                          </a>
+                          </NavLink>
                         </div>
                       </div>
                     </div>
@@ -175,20 +177,20 @@ const Pricing1 = () => {
                   </li>
                 </ul>
                 <div className="flex justify-center">
-                  <a
-                    href="#"
+                  <NavLink
+                    to="/"
                     className="rounded-md border border-blue-500 px-6 py-3 font-medium text-blue-500 transition-all duration-500 hover:bg-blue-500 hover:text-white">
                     Buy now
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
           </div>
           <h5 className="mt-14 text-center font-medium">
             Book your free trial lesson
-            <a href="#" className="mx-3 text-pink-500">
+            <NavLink to="/" className="mx-3 text-pink-500">
               Get in touch
-            </a>
+            </NavLink>
           </h5>
         </div>
       </section>

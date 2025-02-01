@@ -1,11 +1,10 @@
-'use client'
+// 'use client'
 import { LayoutState, LayoutTheme, LayoutType } from '@/types/layouts'
 import {
   type ReactNode,
   createContext,
   useContext,
   useState,
-  useMemo,
   useEffect,
 } from 'react'
 const LayoutContext = createContext<LayoutType | undefined>(undefined)
@@ -44,15 +43,12 @@ function LayoutProvider({ children }: Readonly<{ children: ReactNode }>) {
 
   return (
     <LayoutContext.Provider
-      value={useMemo(
-        () => ({
-          settings,
-          themeMode,
-          updateTheme,
-          resetSettings,
-        }),
-        [settings, themeMode],
-      )}>
+      value={{
+        settings,
+        themeMode,
+        updateTheme,
+        resetSettings,
+      }}>
       {children}
     </LayoutContext.Provider>
   )

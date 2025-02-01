@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import pageImg from '../../../assets/images/page2.jpg'
 
 const Pricing2 = () => {
@@ -109,12 +110,12 @@ const Pricing2 = () => {
             {/* right */}
             <section className="relative flex flex-col rounded-xl bg-pink-500 p-6 shadow-lg shadow-gray-900/5">
               <div className="absolute inset-0 -right-7 -top-3 left-auto">
-                <a
+                <NavLink
                   className="mt-6 rounded-lg bg-blue-600 px-3 py-2 text-xs font-semibold text-white transition-all duration-500 hover:bg-white hover:text-black"
                   aria-label="Get started with the Starter plan for [object Object]"
-                  href="#">
+                  to="#">
                   A1 to C1
-                </a>
+                </NavLink>
               </div>
               <h3 className="text-2xl font-semibold uppercase text-white">
                 Why choose IELTS Coach?
@@ -277,12 +278,12 @@ const Pricing2 = () => {
                   </li>
                 </ul>
               </div>
-              <a
+              <NavLink
                 className="mt-40 inline-flex justify-center rounded-lg border bg-white px-3 py-2 text-sm font-semibold text-blue-400 transition-all duration-500 hover:bg-blue-500 hover:text-white dark:text-gray-900"
                 aria-label="Get started with the Starter plan for [object Object]"
-                href="#">
+                to="#">
                 Sign up
-              </a>
+              </NavLink>
             </section>
           </div>
         </div>

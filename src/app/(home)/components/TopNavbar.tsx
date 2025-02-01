@@ -1,6 +1,7 @@
 import logo from '@/assets/images/logo.png'
 import ThemeToggle from '@/components/ThemeToggle'
 import { useEffect, useState } from 'react'
+import { NavLink } from 'react-router-dom'
 
 const TopNavbar = () => {
   const [open, setOpen] = useState<boolean>(false)
@@ -25,13 +26,13 @@ const TopNavbar = () => {
         // "fixed border-b py-8 md:border-b-0"
         role="navigation">
         <div className="md:flex-no-wrap container flex w-screen flex-wrap items-center">
-          <a href="/" className="flex items-center">
+          <NavLink to="/" className="flex items-center">
             <img src={logo} alt="logo" className="h-16" />
             <div className="ms-2 flex gap-3 text-xl uppercase text-blue-600">
               Learning
               <p className="text-pink-500">English</p>
             </div>
-          </a>
+          </NavLink>
           {/* menu */}
           <div
             id="menu"
@@ -40,12 +41,12 @@ const TopNavbar = () => {
               id="ulMenu"
               className="flex-co ml-[80%] mt-5 flex duration-300 ease-out sm:transition-none md:mt-0 md:flex-row">
               <li>
-                <a
-                  href="/"
+                <NavLink
+                  to="/"
                   className="font-secondary block p-3 text-sm font-medium uppercase hover:text-blue-500 dark:text-blue-600 lg:px-6"
                   title="">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li>
                 <a

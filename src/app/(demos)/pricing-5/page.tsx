@@ -2,6 +2,7 @@ import grammar from '@/assets/images/11.png'
 import cartImg from '@/assets/images/page6.jpg'
 import cartImg2 from '@/assets/images/cc.png'
 import cartImg3 from '@/assets/images/ccc.jpg'
+import { NavLink } from 'react-router-dom'
 
 const Pricing5 = () => {
   return (
@@ -22,7 +23,7 @@ const Pricing5 = () => {
             <div className="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
               <img src={grammar} alt="grammar img" />
 
-              <p className="text-2xl font-normal text-gray-700">
+              <div className="text-2xl font-normal text-gray-700">
                 Practise your English grammar with clear grammar explanations
                 and practice exercises to test your understanding. The learning
                 materials are organised into two sections, organised by English
@@ -41,7 +42,7 @@ const Pricing5 = () => {
                 Practising little and often is the best way to improve your
                 grammar, so come back tomorrow to choose another grammar point
                 to work on. Good luck!
-              </p>
+              </div>
 
               <div className="mt-12 grid gap-5 md:grid-cols-3">
                 <div className="rounded-md bg-white p-5 shadow-md transition-all duration-500 dark:bg-neutral-800/70">
@@ -118,8 +119,8 @@ const Pricing5 = () => {
                   tutor in one-to-one lessons or practise grammar by yourself at
                   your own pace with a self-study course.
                 </p>
-                <a
-                  href="/"
+                <NavLink
+                  to="/"
                   className="dark:hover:text-primary-700 inline-flex items-center font-medium text-blue-600 hover:text-blue-800 dark:text-blue-500">
                   Explore courses
                   <svg
@@ -128,11 +129,11 @@ const Pricing5 = () => {
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                      clip-rule="evenodd"></path>
+                      clipRule="evenodd"></path>
                   </svg>
-                </a>
+                </NavLink>
               </div>
             </div>
           </section>

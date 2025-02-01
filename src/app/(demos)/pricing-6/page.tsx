@@ -1,6 +1,7 @@
 import cartImg from '@/assets/images/page6.jpg'
 import cartImg2 from '@/assets/images/cc.png'
 import cartImg3 from '@/assets/images/ccc.jpg'
+import { NavLink } from 'react-router-dom'
 const Pricing6 = () => {
   return (
     <>
@@ -89,8 +90,8 @@ const Pricing6 = () => {
                   with a self-study course.
                 </p>
 
-                <a
-                  href="/"
+                <NavLink
+                  to="/"
                   className="dark:hover:text-primary-700 inline-flex items-center font-medium text-blue-600 hover:text-blue-800 dark:text-blue-500">
                   Explore courses{' '}
                   <svg
@@ -99,11 +100,11 @@ const Pricing6 = () => {
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                      clip-rule="evenodd"></path>
+                      clipRule="evenodd"></path>
                   </svg>
-                </a>
+                </NavLink>
               </div>
             </div>
           </section>
