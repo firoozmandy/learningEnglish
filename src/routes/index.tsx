@@ -9,6 +9,7 @@ const Pricing2 = lazy(() => import('@/app/(demos)/pricing-2/page'))
 const Pricing3 = lazy(() => import('@/app/(demos)/pricing-3/page'))
 const Pricing4 = lazy(() => import('@/app/(demos)/pricing-4/page'))
 const Pricing5 = lazy(() => import('@/app/(demos)/pricing-5/page'))
+
 const Pricing6 = lazy(() => import('@/app/(demos)/pricing-6/page'))
 
 export type RoutesProps = {
